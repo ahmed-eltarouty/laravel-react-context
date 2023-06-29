@@ -9,7 +9,7 @@ const Users = () => {
     const { setNotification } = useStateContext()
 
     useEffect(() => {
-        getUsers();
+        getUsers(); 
     }, []);
 
     const getUsers = () => {
